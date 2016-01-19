@@ -1,9 +1,5 @@
 module.exports = function () {
-  try {
-    var env = require('child_process').execSync('sudo -Hiu ' + process.env.USER + ' env').toString()
-  } catch (e) {
-    return e
-  }
+  var env = require('child_process').execSync('sudo -Hiu ' + process.env.USER + ' env').toString()
   if (env) {
     var obj = {}
     env.split('\n').forEach(function (l) {
