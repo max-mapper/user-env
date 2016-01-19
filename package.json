@@ -1,0 +1,23 @@
+{
+  "name": "user-env",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [],
+  "author": "max ogden",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxogden/user-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/user-env/issues"
+  },
+  "homepage": "https://github.com/maxogden/user-env#readme",
+  "description": "get the ENV variables for a user (current user or specific user)",
+  "devDependencies": {
+    "standard": "^5.4.1"
+  }
+}
